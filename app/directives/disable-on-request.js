@@ -1,6 +1,6 @@
 "use strict";
 
-var app = angular.module('myApp.auth');
+var app = angular.module('myApp');
 
 app.directive('disableOnRequest', function($http) {
   return {
@@ -18,6 +18,6 @@ app.directive('disableOnRequest', function($http) {
           }
         }
       );
-    },
+    }
   };
 });

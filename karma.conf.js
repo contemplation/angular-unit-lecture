@@ -8,12 +8,16 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/angular-aria/angular-aria.js',
+      'bower_components/angular-messages/angular-messages.js',
+      'bower_components/angular-animate/angular-animate.js',
+      'https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js',
       'app.js',
-      'auth/auth.js',
-      'auth/auth.factory.js',
-      'auth/auth.controller.js',
+      'users/users.js',
+      'users/users.factory.js',
+      'users/users.controller.js',
       'directives/disable-on-request.js',
-      'unit-tests/**/*.js'
+      'unit-tests/app/users/*.js'
     ],
 
     autoWatch: true,
