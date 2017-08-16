@@ -12,16 +12,11 @@ module.exports = function(config) {
       'auth/auth.js',
       'auth/auth.factory.js',
       'auth/auth.controller.js',
-      'auth/disable-on-request.directive.js',
-      //'auth/**/*.js',
-      //'components/**/*.js',
-      //'view*/**/*.js',
+      'directives/disable-on-request.js',
       'unit-tests/**/*.js'
     ],
 
     autoWatch: true,
-
-    //reporters: ['kjhtml'],
 
     frameworks: ['jasmine'],
 
